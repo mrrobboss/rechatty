@@ -30,7 +30,7 @@ jobs:
               run: pnpm install
               
             - name: Run prettier
-                run: pnpm run prettier
+              run: pnpm run prettier
 
             - name: Run linters
               run: pnpm run lint
